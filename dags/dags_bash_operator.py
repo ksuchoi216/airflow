@@ -3,7 +3,6 @@ from __future__ import annotations
 import datetime
 
 import pendulum
-from airflow import DAG
 
 from airflow import DAG
 from airflow.operators.bash import BashOperator

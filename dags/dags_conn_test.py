@@ -19,7 +19,7 @@ with DAG(
     t5 = EmptyOperator(task_id="t5")
     t6 = EmptyOperator(task_id="t6")
     t7 = EmptyOperator(task_id="t7")
-    t8 = EmptyOperator(task_8d="t6")
+    t8 = EmptyOperator(task_id="t8")
 
     t1 >> [t2, t3] >> t4
     t5 >> t4
